@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+* {
+	font-family: Montserrat;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.mainblock {
+	background: #ddd;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.current {
+	border-bottom: 1px solid;
+}
+/*MAIN*/
+
+/*NAVBAR*/
+.logo {
+	width: 216px;
+	height: 42px;
+}
+
+.logo-navbar {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	background: #fff;
+}
+
+ul.navbar {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+}
+
+ul.navbar li {
+	list-style: none;
+}
+
+ul.navbar li a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul.navbar li a:hover {
+	border-bottom: 1px solid;
+	transition: 0.15s;
+}
+/*NAVBAR*/
+
+/*CONTENT*/
+.content {
+	padding: 40px;
+	padding-top: 10px;
+}
+
+.title {
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.content h3 {
+	padding-top: 15px;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+footer {
+	padding: 40px;
+	background: #4a4a4a;
+}
+
+footer p {
+	color: #fff;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+}
+/*CONTENT*/
